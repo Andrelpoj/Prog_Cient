@@ -29,7 +29,7 @@ troca = []
 n = A[0].size
 
 for k in range(0,n):
-    troca.append(0)
+    troca.append(k)
 for k in range(0,n):
     max = abs(A[k][k])
     kMax = k
