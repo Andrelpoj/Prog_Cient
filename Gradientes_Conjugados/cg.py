@@ -24,5 +24,6 @@ def conjugate_gradient(A,b,x0,TOLERANCE = 1.0e-10):
 A = np.loadtxt("matrix.txt")
 b = np.loadtxt("b_array.txt")
 
+c = np.loadtxt("initial.txt")
 
-print("\nResult:",conjugate_gradient(A,b,(0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0)))
+print("\nResult:",conjugate_gradient(A,b,c))
