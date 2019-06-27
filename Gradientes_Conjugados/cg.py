@@ -25,4 +25,4 @@ A = np.loadtxt("matrix.txt")
 b = np.loadtxt("b_array.txt")
 
 
-print("\nResult:",conjugate_gradient(A,b,(0.0,0.0)))
+print("\nResult:",conjugate_gradient(A,b,(0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0)))
